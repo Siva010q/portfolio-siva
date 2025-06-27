@@ -7,18 +7,18 @@ html {
 }
 
 body {
-    background: #fdf9ff;
-    color: #1a1a1a;
-    line-height: 1.6;
-    scroll-behavior: smooth;
+    background-color: rgb(58, 58, 58);
+  color: #ffffff;
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 a {
-    color: #0077ff;
+    color: #05f5d5;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 a:hover {
-    color: #0056b3;
+    color: #05f5d5;
 }
 
 
@@ -40,7 +40,7 @@ header {
 header h1 {
     font-weight: 700;
     font-size: 1.8rem;
-    color: #0077ff;
+    color: #05f5d5;
 }
 nav a {
     margin-left: 2rem;
@@ -50,27 +50,30 @@ nav a {
 .hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 60vh;
     text-align: center;
-    margin: 5rem 0;
+    padding: 2rem;
 }
 
 .hero h2 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
-    color: #0b0c10;
+    color: #05f5d5;
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: #3a3a3a;
+    color: #fff;
     max-width: 600px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .btn-primary {
-    background-color: #0077ff;
-    color: white;
+    background-color: #05f5d5;
+    color: white; 
     padding: 0.8rem 2rem;
     border-radius: 30px;
     font-weight: 600;
@@ -81,38 +84,37 @@ nav a {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color:#05f5d5;
 }
-    /* Sections */
+
 section {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 section h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 3px solid #0077ff;
+    border-bottom: 3px solid#05f5d5;
     display: inline-block;
     padding-bottom: 0.3rem;
 }
 
     
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    display: flex;
+    gap: 6rem;
 }
 
 .project-card {
     background: white;
     border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     padding: 1.5rem;
     transition: transform 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-8px);
+    box-shadow: 1px 1px 2px black, 0 0 25px #03ffdd, 0 0 5px #03ffdd;
 }
 
 .project-card img {
@@ -129,7 +131,7 @@ section h3 {
 }
 
 .project-card p {
-    color: #555;
+    color: #555555;
     font-size: 0.95rem;
 
 }
