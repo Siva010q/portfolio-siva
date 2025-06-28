@@ -7,10 +7,10 @@ html {
 }
 
 body {
-    background-color: rgb(58, 58, 58);
-  color: #ffffff;
-  min-height: 100vh;
-  scroll-behavior: smooth;
+    background-color: black;
+    color: #ffffff;
+    min-height: 100vh;
+    scroll-behavior: smooth;
 }
 a {
     color: #05f5d5;
@@ -89,6 +89,7 @@ nav a {
 
 section {
     margin-bottom: 2rem;
+    gap: 2rem;
 }
 
 section h3 {
@@ -144,14 +145,33 @@ section h3 {
 }
 
 .skill {
-    background: #8A2BE2;
+    background: #05f5d5;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 30px;
     font-weight: 600;
     font-size: 0.9rem;
-    box-shadow: 0 4px 8px rgba(0,119,255,0.3);
+    box-shadow: 0 4px 8px rgba(19, 200, 255, 0.3);
 }
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 28px;
+  transition: transform 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #00ffff; /* neon blue on hover */
+  transform: scale(1.2);
+}
+
 
     
 footer {
