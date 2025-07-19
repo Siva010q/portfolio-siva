@@ -238,7 +238,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ----------------- Responsive Tweaks ----------------- */
 
 @media (max-width: 1024px) {
   .hero h2 {
